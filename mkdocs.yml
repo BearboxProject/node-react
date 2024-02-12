@@ -1,0 +1,44 @@
+site_name: Expo Sinpeem APP
+site_url: https://bearingme.github.io/mkdocs-react-guide/
+site_dir: public
+
+nav:
+  - Início: index.md
+  - Arquitetura: architecture.md
+  - Componentes: components.md
+  - Padrões: patterns.md
+  - Troubleshooting: troubleshooting.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt-BR
+  font:
+    text: Roboto
+  palette:
+    - scheme: slate
+      primary: black
+      accent: indigo
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
